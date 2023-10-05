@@ -97,6 +97,7 @@ public class LoggerSetupTest {
 	 * Tests configuration file location and name.
 	 */
 	@Nested
+	@Tag("A")
 	@TestMethodOrder(OrderAnnotation.class)
 	public class A_ConfigFileTests {
 		/**
